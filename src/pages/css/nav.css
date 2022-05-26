@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+
 .nav-pos-fix{
     height: 0px;
     width: 100%;
@@ -82,11 +84,11 @@
 
 @media only screen and (min-width: 768px) {
     .nav-pos-fix{
-        height: 120px;
+        height: 160px;
     }
     .Nav{
         padding-right: 0 0.5rem;
-        height: 120px;
+        height: 160px;
         min-width: 100vw;
         position: fixed;
         top: 0;
@@ -97,8 +99,13 @@
         justify-content: space-evenly;
         align-items: center;
     }
+    .Nav a.active{
+        border-bottom: solid 2px #0047ba;
+        opacity: 1;
+        transform: scale(1.05);
+    }
     .Nav a.active:hover{
-        border-bottom: solid 2px transparent;
+        border-bottom: solid 2px #0047ba;
     }
     .burger-button{
         display: none;
@@ -163,8 +170,7 @@
     .Nav .logo{
         position: unset;
         transform: translateX(0);
-        display: inline-block;
-        height: 5rem;
+        height: 6rem;
     }
     .Nav .nav-num{
         font-family: 'Source Sans Pro', sans-serif;
@@ -178,6 +184,9 @@
 @media only screen and (min-width: 900px) {
     .Nav a{
         font-size: 1.5rem;
+    }
+    .Nav .logo{
+        height: 8rem;
     }
     .Nav a.nav-mail, .Nav a.nav-num{
         font-size: 1.15rem;

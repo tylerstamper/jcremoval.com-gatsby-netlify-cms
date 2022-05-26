@@ -20,7 +20,7 @@ function Footer(){
                 <div className='section'>
                     <a className='contact-button' href='tel:16615055297'><img className='inline-img' src={phone} alt='phone'/>(661)-505-5297</a>
                     <a className='contact-button' href='mailto:jcremoval.contact@gmail.com'><img className='inline-img' src={email} alt='email'/>jcremoval.contact@gmail.com</a>
-                    <p className='business-num'>business number: 00171067</p>
+                    <p className='business-num'>Business license #00171067</p>
                 </div>
 
                 <div className='section socials'>

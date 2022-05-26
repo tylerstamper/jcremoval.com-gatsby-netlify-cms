@@ -40,10 +40,10 @@ function Nav(){
             </div>
 
             <div className='nav-section'>
-                <Link to='/'>Home</Link>
-                <Link to='/our-services'>Services</Link>
-                <Link to='/contact'>Contact</Link>
-                <Link to='/gallery'>Gallery</Link>
+                <Link activeClassName='active' to='/'>Home</Link>
+                <Link activeClassName='active' to='/our-services'>Services</Link>
+                <Link activeClassName='active' to='/contact'>Contact</Link>
+                <Link activeClassName='active' to='/gallery'>Gallery</Link>
             </div>
 
         </nav>

@@ -36,3 +36,4 @@ collections:
     fields: 
       - { label: Image, name: image, widget: image }
       - { label: Image Title, name: title, widget: string }
+      - { name: date, label: Date, widget: datetime }
