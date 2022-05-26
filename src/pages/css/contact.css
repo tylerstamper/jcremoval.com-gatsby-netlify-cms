@@ -1,0 +1,65 @@
+.Contact{
+    height: 100%;
+    position: relative;
+}
+.Contact .main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+}
+.Contact .main-content h2{
+    font-weight: 600;
+}
+.Contact .details{
+    
+    padding: 3rem;
+    align-self: normal;
+}
+.Contact .details a{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.Contact .details img{
+    height: 2.5rem;
+}
+.Contact .details a:first-of-type{
+    margin-right: 0.5rem;
+}
+.Contact .form{
+    
+}
+@media only screen and (min-width: 550px) {
+    .Contact{
+        padding: 3rem 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Contact .main-content{
+        width: 95%;
+        margin: auto;
+    }
+    .Contact .details{
+        width: 40%;
+    }
+    .Contact .form{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .Contact .main-content{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .Contact .main-content{
+        width: 70%;
+        margin: auto;
+    }
+}
