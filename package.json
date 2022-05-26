@@ -49,9 +49,9 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "public/main.js && gatsby build",
+    "build": "node public/main.js && gatsby build",
     "develop": "gatsby develop",
-    "server": "public/main.js",
+    "server": "node public/main.js",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
