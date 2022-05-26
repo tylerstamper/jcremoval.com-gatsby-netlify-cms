@@ -8,7 +8,7 @@ public_folder: "/images"
 collections:
   - name: posts
     label: "Update Post"
-    folder: "/content/posts"
+    folder: "content/posts"
     create: true
     slug: "{{title}}"
     fields:
@@ -18,7 +18,7 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: reviews
     label: "Review"
-    folder: "/content/reviews"
+    folder: "content/reviews"
     create: true
     format: json
     slug: "{{name}}"
@@ -27,7 +27,7 @@ collections:
       - { name: review, label: Review }
   - name: gallery
     label: "Gallery Image"
-    folder: "/content/gallery-images"
+    folder: "content/gallery-images"
     create: true
     widget: "list"
     summary: '{{fields.image}}'
