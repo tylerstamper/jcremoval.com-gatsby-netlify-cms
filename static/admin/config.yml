@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: posts
+    label: "Update Post"
+    folder: "/content/posts"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+  - name: reviews
+    label: "Review"
+    folder: "/content/reviews"
+    create: true
+    format: json
+    slug: "{{name}}"
+    fields:
+      - { name: name, label: name }
+      - { name: review, label: Review }
+  - name: gallery
+    label: "Gallery Image"
+    folder: "/content/gallery-images"
+    create: true
+    widget: "list"
+    summary: '{{fields.image}}'
+    format: json
+    slug: "{{title}}"
+    fields: 
+      - { label: Image, name: image, widget: image }
+      - { label: Image Title, name: title, widget: string }
