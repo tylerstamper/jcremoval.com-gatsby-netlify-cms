@@ -30,7 +30,8 @@ function Contact(){
                 </div>
 
                 <div className='form'>
-                    <FormModule />
+                lel
+                    {/* <FormModule /> */}
                 </div>
 
             </main>
