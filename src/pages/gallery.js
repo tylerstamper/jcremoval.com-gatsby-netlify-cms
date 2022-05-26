@@ -2,7 +2,6 @@ import * as React from 'react';
 import '../pages/css/gallery.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import ImageComp from '../components/imageComp.js';
 import imageData from '../pages/content/image_data.json';
 import Helmet from 'react-helmet';
 
@@ -31,7 +30,7 @@ function Gallery(){
                 <h2>Gallery</h2>
                 <div className='grid'>
                     {images && images.map(image => {
-                        return <ImageComp image={image}/>
+                        return <img src={image.image} alt={image.title}/>
                     })}
                 </div>
             </main>
