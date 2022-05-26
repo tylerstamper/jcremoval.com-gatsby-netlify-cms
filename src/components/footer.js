@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 import '../pages/css/footer.css';
-import phone from '../images/phone-call.png';
-import email from '../images/email.png';
-import fb from '../images/fb.png';
-import insta from '../images/insta.png';
-import homeAdvisor from '../images/advisor.png';
+import phone from '../../static/assetts/phone-call.png';
+import email from '../../static/assetts/email.png';
+import fb from '../../static/assetts/fb.png';
+import insta from '../../static/assetts/insta.png';
+import homeAdvisor from '../../static/assetts/advisor.png';
 
 function Footer(){
 

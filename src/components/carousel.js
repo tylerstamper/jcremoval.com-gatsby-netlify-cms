@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useState, useEffect } from 'react';
 import reviewData from '../pages/content/review_data.json';
 
-import star from '../images/star.png';
+import star from '../../static/assetts/star.png';
 
 function CarouselComp(){
 

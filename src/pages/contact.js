@@ -6,8 +6,8 @@ import FormModule from '../components/form';
 import Helmet from 'react-helmet';
 import '../pages/css/contact.css';
 
-import fb from '../images/fb.png';
-import insta from '../images/insta.png';
+import fb from '../../static/assetts/fb.png';
+import insta from '../../static/assetts/insta.png';
 
 function Contact(){
 

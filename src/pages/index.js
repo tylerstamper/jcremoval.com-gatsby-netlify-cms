@@ -8,7 +8,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import CarouselComp from '../components/carousel';
 import Posts from '../components/posts';
-import phone from '../images/phone-call.png';
+import phone from '../../static/assetts/phone-call.png';
 import Helmet from 'react-helmet';
 
 function Home(){
@@ -23,7 +23,7 @@ function Home(){
         <Nav />
             <main className='main-cont'>
                 <div className='hero-img'>
-                    <StaticImage className='hero-img' src='../images/team.jpg' alt='JC Removal Owners'/>
+                    <StaticImage className='hero-img' src='../../static/assetts/team.jpg' alt='JC Removal Owners'/>
                     <div className='hero-text'>
                         <p>JC Removal is an emerging junk removal business located in Kern County, ready to take aim at your trash</p>
                         <button><img src={phone} alt='call us button'/>CALL FOR A FREE QUOTE</button>
@@ -35,7 +35,7 @@ function Home(){
                         <div className='grid'>
                             <div className='grid-item'>
                                 <StaticImage 
-                                    src='../images/leveled-home.png'
+                                    src='../../static/assetts/leveled-home.png'
                                     alt='our team'
                                 />
                                 <div className='text'>
@@ -46,7 +46,7 @@ function Home(){
                             </div>
                             <div className='grid-item'>
                                 <StaticImage 
-                                    src='../images/leveled-home.png'
+                                    src='../../static/assetts/leveled-home.png'
                                     alt='our tools'
                                     />
                                 <div className='text'>
@@ -57,7 +57,7 @@ function Home(){
                             </div>
                             <div className='grid-item'>
                                 <StaticImage
-                                    src='../images/waste_facility.jpg'
+                                    src='../../static/assetts/waste_facility.jpg'
                                     alt='placeholder'
                                     />
                                 <div className='text'>

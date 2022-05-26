@@ -1,10 +1,10 @@
 import * as React from 'react';
 import '../pages/css/nav.css';
-import phone from '../images/phone-call.png';
-import close from '../images/close.png';
+import phone from '../../static/assetts/phone-call.png';
+import close from '../../static/assetts/close.png';
 import { Link } from 'gatsby';
 import { useState } from 'react';
-import logo from '../images/logo-outline-white.png';
+import logo from '../../static/assetts/logo-outline-white.png';
 
 function Nav(){
 

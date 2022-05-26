@@ -23,7 +23,7 @@ function OurServices(){
                 <div className='services-cont'>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/shed-removal.jpg' alt='Shed Garbage'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/shed-removal.jpg' alt='Shed Garbage'/>
                         <div className='info-cont'>
                             <p>Minor Demolition</p>
                             <ul>
@@ -37,7 +37,7 @@ function OurServices(){
                     </div>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/appliance.webp' alt='Appliances'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/appliance.webp' alt='Appliances'/>
                         <div className='info-cont'>
                             <p>Furniture & Appliances</p>
                             <ul>
@@ -52,7 +52,7 @@ function OurServices(){
                     </div>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/yardwaste.jpg' alt='Yard Waste'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/yardwaste.jpg' alt='Yard Waste'/>
                         <div className='info-cont'>
                             <p>Yard Waste</p>
                             <ul>
@@ -66,7 +66,7 @@ function OurServices(){
                     </div>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/industrial.jpg' alt='Construction Debris'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/industrial.jpg' alt='Construction Debris'/>
                         <div className='info-cont'>
                             <p>Construction Debris</p>
                             <ul>
@@ -80,7 +80,7 @@ function OurServices(){
                     </div>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/estate.jpg' alt='House Garbage'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/estate.jpg' alt='House Garbage'/>
                         <div className='info-cont'>
                             <p>Estate Cleanouts</p>
                             <ul>
@@ -94,7 +94,7 @@ function OurServices(){
                     </div>
 
                     <div className='service'>
-                        <StaticImage className='gats-img' src='../images/office-junk.jpg' alt='Office Garbage'/>
+                        <StaticImage className='gats-img' src='../../static/assetts/office-junk.jpg' alt='Office Garbage'/>
                         <div className='info-cont'>
                             <p>Office Cleanouts</p>
                             <ul>
