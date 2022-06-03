@@ -23,7 +23,8 @@ function Home(){
         <Nav />
             <main className='main-cont'>
                 <div className='hero-img'>
-                    <StaticImage className='hero-img' src='../../static/assetts/jc-removal-hero-500.jpg' alt='JC Removal'/>
+                    <StaticImage className='large' src='../../static/assetts/jc-removal-hero-500.jpg' alt='JC Removal'/>
+                    <StaticImage className='small' src='../../static/assetts/jc-hero.jpg' alt='JC Removal'/>
                     <div className='hero-text'>
                         <p>JC Removal is an emerging junk removal business located in Kern County, ready to take aim at your trash</p>
                         <button><img src={phone} alt='call us button'/>GET YOUR FREE QUOTE</button>

@@ -17,26 +17,37 @@ body{
     margin: 0;
 }
 /*  v hero image v  */
+.Home .hero-img .small{
+    display: block;
+    height: 400px;
+    filter: brightness(50%);
+}
+.Home .hero-img .large{
+    display: none;
+    filter: brightness(50%);
+}
 .Home .hero-img{
     position: relative;
     width: 100%;
     overflow: hidden;
     margin: auto;
-    filter: brightness(70%);
 }
 .Home .hero-text{
     position: absolute;
     bottom: 10%;
-    left: 0;
+    left: 10%;
+    right: 10%;
     /* transform: translate(-50%, -10%); */
     color: white;
+    text-align: left;
+    margin: auto;
 }
 .Home .hero-text p{
     font-weight: 600;
     letter-spacing: 0.5px;
-    margin: 0 auto;
-    width: 80%;
-    text-align: left;
+    margin: 0;
+    max-width: 500px;
+    font-size: 1.3rem;
 }
 .Home .hero-text button{
     font-family: 'Bebas Neue', cursive;
@@ -49,7 +60,7 @@ body{
     color: white;
     border: none;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
 }
 .Home .hero-text button img{
     height: 1.25rem;
@@ -144,17 +155,24 @@ body{
     margin-bottom: 3rem;
 }
 /* ^ Updates ^ */
+
+@media only screen and (max-width: 450px) {
+    .Home .hero-text{
+        width: 80%;
+    }
+    .Home .hero-text p{
+        font-size: 1.2rem;
+    }
+}
+
 @media only screen and (min-width: 500px) {
     .Home .hero-text{
         text-align: left;
     }
     .Home .hero-text button{
         width: fit-content;
-        margin: 1rem 0 5% 25%;
     }
     .Home .hero-text p{
-        width: 60%;
-        margin: 0 0 0 25%;
         font-size: 1.25rem;
     }
     .Home .grid-item img{
@@ -171,22 +189,20 @@ body{
     }
 }
 @media only screen and (min-width: 768px) {
-    .Home .main-cont .hero-img{
-        /* height: 25rem; */
+    .Home .hero-text p{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .Home .hero-img .large{
+        display: block;
+    }
+    .Home .hero-img .small{
+        display: none;
     }
 }
 @media only screen and (min-width: 864px) {
     .Home .grid-item img, .Home .grid-item .text{
         max-width: 400px;
-    }
-}
-@media only screen and (min-width: 1120px) {
-    .Home .main-cont .hero-img{
-        /* height: 500px; */
-    }
-}
-@media only screen and (min-width: 1350px) {
-    .Home .main-cont .hero-img{
-        /* height: 700px; */
     }
 }
