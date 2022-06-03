@@ -11,7 +11,7 @@ function FormModule(){
             id='form'
             className='Form'
             method='post'
-            action='/pages/success'
+            action='/success'
             name='contact'
             netlify-honeypot="bot-field"
             data-netlify="true"
