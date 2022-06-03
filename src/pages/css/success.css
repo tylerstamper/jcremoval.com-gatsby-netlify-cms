@@ -1,0 +1,20 @@
+.Success{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 25% 5%;
+}
+.Success h2{
+    font-size: 2rem;
+}
+.Success p{
+    font-weight: 600;
+    width: 80%;
+    margin: 3rem auto;
+    font-size: 1.2rem;
+}
+@media only screen and (min-width: 500px) {
+    .Success h2{
+        font-size: 3rem;
+    }
+}
