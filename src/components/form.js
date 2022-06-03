@@ -1,9 +1,15 @@
+import { navigate } from 'gatsby';
 import * as React from 'react';
 import '../pages/css/form.css';
 
 //validate this form
 
 function FormModule(){
+
+    const handleSubmit = (e) => {
+        navigate('/success');
+        e.preventDefault();
+    }
 
     return(
         <form
@@ -13,6 +19,7 @@ function FormModule(){
             name='contact'
             netlify-honeypot="bot-field"
             data-netlify="true"
+            onSubmit={(e) => handleSubmit(e)}
         >
             <input type='hidden' name='bot-field'/>
             <input type='hidden' name='form-name' value='contact'/>
@@ -34,7 +41,7 @@ function FormModule(){
 
             <div className='form-sec'>
             <label for='number'>* Phone:</label>
-            <input type='tel' id='number' name='number' placeholder='123-456-7891' pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required/>
+            <input type='tel' id='number' name='number' placeholder='123 456 7891' pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required/>
             </div>
             <p>We will never share your email or phone number with anyone.</p>
 

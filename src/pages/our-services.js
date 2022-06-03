@@ -12,7 +12,7 @@ function OurServices(){
     return(
         <div className='Services'>
             <Helmet>
-                <title>JC Removal - Services</title>
+                <title>JC Removal | Services</title>
                 <link rel="canonical" href="https://www.jcremoval.com/our-services"/>
                 <meta name="description" content="JC Removal Services"/>
             </Helmet>
