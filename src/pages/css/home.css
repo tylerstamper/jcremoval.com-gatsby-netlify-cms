@@ -20,9 +20,9 @@ body{
 .Home .hero-img{
     position: relative;
     width: 100%;
-    max-height: 500px;
     overflow: hidden;
     margin: auto;
+    filter: brightness(70%);
 }
 .Home .hero-text{
     position: absolute;
@@ -94,7 +94,7 @@ body{
     border-radius: 0 0 2px 2px;
     height: 120px;
     padding: 1rem 1rem;
-    background-color: #0b870b;
+    background-color: #333;
     color: white;
     font-weight: 600;
 }

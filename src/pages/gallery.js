@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import imageData from '../pages/content/image_data.json';
 import Helmet from 'react-helmet';
 
+
 function Gallery(){
 
     const [images, setImages] = React.useState();
@@ -18,10 +19,12 @@ function Gallery(){
         setImages(tempImageArr);
     },[])
 
+
+
     return(
         <div className='Gallery'>
             <Helmet>
-                <title>JC Removal - Gallery</title>
+                <title>JC Removal | Gallery</title>
                 <link rel="canonical" href="https://www.jcremoval.com/gallery"/>
                 <meta name="description" content="JC Removal Gallery"/>
             </Helmet>

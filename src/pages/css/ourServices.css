@@ -35,7 +35,7 @@
     text-align: left;
 }
 .Services .service .info-cont{
-    background-color: #0b870b;
+    background-color: #333;
     max-width: 500px;
     min-height: 250px;
     max-height: fit-content;

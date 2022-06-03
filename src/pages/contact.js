@@ -14,7 +14,7 @@ function Contact(){
     return(
         <div className='Contact'>
             <Helmet>
-                <title>JC Removal - Contact</title>
+                <title>JC Removal | Contact</title>
                 <link rel="canonical" href="https://www.jcremoval.com/contact"/>
                 <meta name="description" content="JC Removal Contact Form"/>
             </Helmet>
@@ -30,8 +30,7 @@ function Contact(){
                 </div>
 
                 <div className='form'>
-                lel
-                    {/* <FormModule /> */}
+                    <FormModule />
                 </div>
 
             </main>

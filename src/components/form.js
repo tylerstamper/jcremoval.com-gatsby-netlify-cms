@@ -9,11 +9,13 @@ function FormModule(){
         <form
             id='form'
             className='Form'
-            method='POST'
-            name='contact-form'
-            data-netlify='true'
+            method='post'
+            name='contact'
+            netlify-honeypot="bot-field"
+            data-netlify="true"
         >
-            <input type='hidden' name='form-name' value='contact-form'/>
+            <input type='hidden' name='bot-field'/>
+            <input type='hidden' name='form-name' value='contact'/>
 
             <div className='form-sec'>
             <label className='firstNameLabel' for='fName'>* First Name:</label>
