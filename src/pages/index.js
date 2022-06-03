@@ -36,7 +36,7 @@ function Home(){
                         <div className='grid'>
                             <div className='grid-item'>
                                 <StaticImage 
-                                    src='../../static/assetts/leveled-home.png'
+                                    src='../../static/assetts/team.jpg'
                                     alt='our team'
                                 />
                                 <div className='text'>
