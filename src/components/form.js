@@ -6,20 +6,15 @@ import '../pages/css/form.css';
 
 function FormModule(){
 
-    const handleSubmit = (e) => {
-        navigate('/success');
-        e.preventDefault();
-    }
-
     return(
         <form
             id='form'
             className='Form'
             method='post'
+            action='/pages/success'
             name='contact'
             netlify-honeypot="bot-field"
             data-netlify="true"
-            onSubmit={(e) => handleSubmit(e)}
         >
             <input type='hidden' name='bot-field'/>
             <input type='hidden' name='form-name' value='contact'/>
