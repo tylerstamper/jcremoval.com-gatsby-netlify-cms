@@ -13,7 +13,7 @@ function Contact(){
 
     return(
         <div className='Contact'>
-            <Helmet>
+            <Helmet htmlAttributes={{lang: 'en',}}>
                 <title>JC Removal | Contact</title>
                 <link rel="canonical" href="https://www.jcremoval.com/contact"/>
                 <meta name="description" content="JC Removal Contact Form"/>

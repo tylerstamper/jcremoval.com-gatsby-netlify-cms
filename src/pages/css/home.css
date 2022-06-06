@@ -49,7 +49,9 @@ body{
     max-width: 500px;
     font-size: 1.3rem;
 }
-.Home .hero-text button{
+.Home .hero-text a{
+    text-align: center;
+    text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1.5px;
     font-size: 1.25rem;
@@ -61,12 +63,13 @@ body{
     border: none;
     border-radius: 5px;
     width: 100%;
+    display: block;
 }
-.Home .hero-text button img{
+.Home .hero-text a img{
     height: 1.25rem;
     margin-right: 0.5rem;
 }
-.Home .hero-text button:active{
+.Home .hero-text a:active{
     transform: scale(0.95);
 }
 /*  ^ hero image ^  */
@@ -90,7 +93,7 @@ body{
 }
 .Home .grid-item{
     width: fit-content;
-    max-width: 600px;
+    max-width: 500px;
     height: fit-content;
     position: relative;
     margin: 0.5rem 1rem;
@@ -169,23 +172,12 @@ body{
     .Home .hero-text{
         text-align: left;
     }
-    .Home .hero-text button{
+    .Home .hero-text a{
         width: fit-content;
+        margin: 1rem auto 0 0;
     }
     .Home .hero-text p{
         font-size: 1.25rem;
-    }
-    .Home .grid-item img{
-        width: 400px;
-        height: 300px;
-    }
-    .Home .grid-item .text{
-        width: 400px;
-    }
-}
-@media only screen and (min-width: 600px) {
-    .Home .main-cont .hero-img{
-        /* height: 20rem; */
     }
 }
 @media only screen and (min-width: 768px) {
@@ -202,7 +194,14 @@ body{
     }
 }
 @media only screen and (min-width: 864px) {
-    .Home .grid-item img, .Home .grid-item .text{
-        max-width: 400px;
+    .Home .grid-item{
+        width: 400px;
+    }
+    .Home .grid-item img{
+        width: 400px;
+    }
+    .Home .grid-item .text{
+        width: 400px;
+        height: 100px;
     }
 }

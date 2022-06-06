@@ -19,11 +19,11 @@ function Gallery(){
         setImages(tempImageArr);
     },[])
 
-
+    console.log(images);
 
     return(
         <div className='Gallery'>
-            <Helmet>
+            <Helmet htmlAttributes={{lang: 'en',}}>
                 <title>JC Removal | Gallery</title>
                 <link rel="canonical" href="https://www.jcremoval.com/gallery"/>
                 <meta name="description" content="JC Removal Gallery"/>

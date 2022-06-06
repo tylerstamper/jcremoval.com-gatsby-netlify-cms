@@ -15,7 +15,7 @@ function Home(){
 
     return(
         <div className='Home'>
-            <Helmet>
+            <Helmet htmlAttributes={{lang: 'en',}}>
                 <title>JC Removal | Home</title>
                 <link rel="canonical" href="https://www.jcremoval.com/"/>
                 <meta name="description" content="JC Removal Home page"/>
@@ -27,7 +27,7 @@ function Home(){
                     <StaticImage className='small' src='../../static/assetts/jc-hero.jpg' alt='JC Removal'/>
                     <div className='hero-text'>
                         <p>JC Removal is an emerging junk removal business located in Kern County, ready to take aim at your trash</p>
-                        <button><img src={phone} alt='call us button'/>GET YOUR FREE QUOTE</button>
+                        <a href='tel:16615055297'><img src={phone} alt='call us button'/>GET YOUR FREE QUOTE</a>
                     </div>
                 </div>
 
