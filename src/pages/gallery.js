@@ -19,8 +19,6 @@ function Gallery(){
         setImages(tempImageArr);
     },[])
 
-    console.log(images);
-
     return(
         <div className='Gallery'>
             <Helmet htmlAttributes={{lang: 'en',}}>
