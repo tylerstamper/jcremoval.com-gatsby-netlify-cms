@@ -16,6 +16,17 @@ function Gallery(){
         imageData.forEach(arrItem => {
             tempImageArr.push(JSON.parse(arrItem));
         })
+        tempImageArr.sort((a, b) => {
+            if(new Date(a.date) < new Date(b.date)){
+                return 1;
+            }
+            else if(new Date(a.date) > new Date(b.date)){
+                return -1;
+            }
+            else{
+                return 0;
+            }
+        })
         setImages(tempImageArr);
     },[])
 
@@ -30,8 +41,8 @@ function Gallery(){
             <main className='main-cont'>
                 <h2>Gallery</h2>
                 <div className='grid'>
-                    {images && images.map(image => {
-                        return <img src={image.image} alt={image.title}/>
+                    {images && images.map((image, index) => {
+                        return <img key={index} src={image.image} alt={image.title}/>
                     })}
                 </div>
             </main>
