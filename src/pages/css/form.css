@@ -22,6 +22,9 @@
 .Form input, .Form textarea{
     width: 100%;
 }
+.Form .notice{
+    margin: 1rem 0 2rem 0;
+}
 .Form p{
     width: 90%;
     margin: 0 auto 1rem auto;

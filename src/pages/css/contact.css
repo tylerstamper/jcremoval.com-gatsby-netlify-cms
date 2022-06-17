@@ -18,9 +18,16 @@
     font-weight: 600;
 }
 .Contact .details{
-    
     padding: 3rem;
     align-self: normal;
+}
+.Contact .details p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.Contact .details p:last-of-type{
+    margin-bottom: 1rem;
 }
 .Contact .details a{
     display: inline-block;
@@ -32,9 +39,6 @@
 }
 .Contact .details a:first-of-type{
     margin-right: 0.5rem;
-}
-.Contact .form{
-    
 }
 @media only screen and (min-width: 550px) {
     .Contact{

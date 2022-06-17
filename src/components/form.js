@@ -15,6 +15,7 @@ function FormModule(){
             netlify-honeypot="bot-field"
             data-netlify="true"
         >
+            <p className='notice'>We will never share your email or phone number with anyone.</p>
             <input type='hidden' name='bot-field'/>
             <input type='hidden' name='form-name' value='contact'/>
 
@@ -37,7 +38,6 @@ function FormModule(){
             <label for='number'>* Phone:</label>
             <input type='tel' id='number' name='number' placeholder='Phone number' pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required/>
             </div>
-            <p>We will never share your email or phone number with anyone.</p>
 
             <label className='message-label' for='message'>* Leave us a message</label>
             <textarea type='text' id='message' name='message' placeholder='Your message ...' required>
