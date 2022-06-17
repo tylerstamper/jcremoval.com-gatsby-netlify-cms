@@ -35,7 +35,7 @@ function FormModule(){
 
             <div className='form-sec'>
             <label for='number'>* Phone:</label>
-            <input type='tel' id='number' name='number' placeholder='123 456 7891' pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required/>
+            <input type='tel' id='number' name='number' placeholder='Phone number' pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required/>
             </div>
             <p>We will never share your email or phone number with anyone.</p>
 
