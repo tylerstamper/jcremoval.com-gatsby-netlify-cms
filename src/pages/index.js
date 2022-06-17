@@ -47,7 +47,7 @@ function Home(){
                             </div>
                             <div className='grid-item'>
                                 <StaticImage 
-                                    src='../../static/assetts/leveled-home.png'
+                                    src='../../static/assetts/tools.jpg'
                                     alt='our tools'
                                     />
                                 <div className='text'>
